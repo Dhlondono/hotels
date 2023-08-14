@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/image/Frame\ 23.png);
+    background-size: 100% 100%;
+    padding: 30px;
+}
+
+.title{
+    font-family: 'Pacifico', cursive;
+    color: #FFF;
+    font-size: 70px;
+    margin: 0 0 10px 0;
+}
+
+.filter-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    height: 35px;
+}
+
+.filterCountry{
+    background: url(/image/country.svg);
+}
+
+.checkIn-date{
+    background: url(/image/checkin.svg);
+    position: relative;
+}
+
+.checkOut-date{
+    background: url(/image/checkout.svg);
+    position: relative;
+}
+
+.filterPrices{
+    background: url(/image/price.svg);
+}
+
+.filterSizes{
+    background: url(/image/size.svg);
+}
+
+.filter_icon{
+    background-repeat: no-repeat;
+    padding-left: 26px;
+    background-position-x: 2px;
+    background-position-y: center;
+    font-family: cursive;
+    background-color:#FFF
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+.button_clear{
+    border-radius: 10px;
+    font-size: 134%;
+    border-radius: 15px;
+    color: aliceblue;
+    background: darkslategrey;
+}
+
+.message-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 240%;
+    color: #FFF;
+    margin: 20px 0 0 0;
+}
+.message-content{
+    color: #FFF;
+    font-size: large;
+}
