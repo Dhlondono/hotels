@@ -4,7 +4,7 @@
 .header{
     display: flex;
     flex-direction: column;
-    background-image: url(/image/Frame\ 23.png);
+    background-image: url(./image/Frame\ 23.png);
     background-size: 100% 100%;
     padding: 30px;
 }
@@ -24,25 +24,25 @@
 }
 
 .filterCountry{
-    background: url(/image/country.svg);
+    background: url(./image/country.svg)
 }
 
 .checkIn-date{
-    background: url(/image/checkin.svg);
+    background: url(./image/checkin.svg);
     position: relative;
 }
 
 .checkOut-date{
-    background: url(/image/checkout.svg);
+    background: url(./image/checkout.svg);
     position: relative;
 }
 
 .filterPrices{
-    background: url(/image/price.svg);
+    background: url(./image/price.svg);
 }
 
 .filterSizes{
-    background: url(/image/size.svg);
+    background: url(./image/size.svg);
 }
 
 .filter_icon{
