@@ -84,3 +84,156 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     color: #FFF;
     font-size: large;
 }
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    padding: 15px;
+}
+
+.card{
+    position: relative;
+
+}
+
+.hotel-image{
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.hotel-name{
+    position: relative;
+    top: -120px;
+    color: white;
+    margin: 0px 15px;
+    width: 100%;
+    z-index: 2;
+
+}
+
+.nameCountry{
+    position :absolute;
+    top: 170px;
+    margin: 0px 15px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    z-index: 2;
+}
+
+.numberOfRooms{
+    position :absolute;
+    top: 190px;
+    margin: 0px 15px;
+    color: white;
+    z-index: 2;
+}
+
+.priceRooms{
+    position :absolute;
+    top: 175px;
+    left: 100px;
+    color: white;
+    z-index: 2;
+}
+
+.hotel_Description{
+    display: none; 
+}
+
+.button_book{
+    display: none;
+    position: relative;
+}
+.card:hover{
+    display: -webkit-inline-box
+}
+
+.card:hover .button_book{
+    display: flex;
+    position: absolute;
+    top: 145px;
+    left: 238px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-size: large;
+    z-index: 2;
+}
+
+.card:hover .hotel_Description{
+    display: flex;
+    position: absolute;
+    top: 65px;
+    font-size: 12px;
+    margin: 0 22px;
+    color: white;
+    z-index: 2;
+}
+
+.card:hover .hotel-name{
+    position: absolute;
+    top: 5px;
+    left: -21px;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 2;
+}
+
+.card:hover .nameCountry {
+    top: 42px;
+    left: 93px;
+    z-index: 2;
+}
+
+.card:hover .numberOfRooms {
+    top: 42px;
+    left: 175px;
+    z-index: 2;
+}
+
+.card:hover .priceRooms {
+    top: 27px;
+    left: 275px;
+    z-index: 2;
+}
+
+.card::after {
+    position: absolute;
+    content: "";
+    height: 89%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(224.24% 668.5% at 14.41% -14.14%, rgba(0,0,0,0.57) 44.5%, rgba(255,255,255,0) 67.11%);
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 10px;
+}
+/* .card:hover .button_book{
+    display: flex;
+    top: -240px
+    left: -23px;
+    .nameCountry {
+    position: absolute;
+    top: 42px;
+    margin: 0px 15px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    left: 93px;
+    .numberOfRooms {
+    position: absolute;
+    top: 42px;
+    margin: 0px 15px;
+    color: white;
+    left: 175px;
+    .priceRooms {
+    position: absolute;
+    top: 27px;
+    left: 275px;
+    color: white;
+}
+} */

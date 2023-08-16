@@ -14,25 +14,27 @@
                 <option value="all">All countries</option>
                 <option value="country1">All countries</option>
             </select>
-            <input type="date" class="checkIn-date filter_icon" id="checkIn" placeholder="Check In">
-            <input type="date" class="checkOut-date filter_icon" id="checkOut" placeholder="Check out" >
+            <input type="date" class="checkIn-date filter_icon" id="checkIn" placeholder="Check In" value="">
+            <input type="date" class="checkOut-date filter_icon" id="checkOut" placeholder="Check out" value="" >
             <select aria-label="seleccione un valor" class="filterPrices filter_icon" name="filter-prices" id="filter-prices">
-                <option value="all">All Prices</option>
-                <option value="price1">All countries</option>
+                <option value="">All Prices</option>
             </select>
             <select aria-label="seleccione un valor" class="filterSizes filter_icon" name="filter-Sizes" id="filter-Sizes">
                 <option value="all">All Sizes</option>
                 <option value="size1">All countries</option>
             </select>
-            <button class="button_clear" type="button">Clear</button>
+            <button class="button_clear" id="button_clear" type="button">Clear</button>
        </div> 
        <div class="message-container">
         <p class="message-title">We have found for you...</p>
         <p class="message-content">All sizes hotels of all category prices, in all countries.</p>
        </div>
     </header>
-    <main>
+    <main class="main">
 
     </main>
+
+    <script type="module" src="/codigo/hotels.js"></script>
 </body>
+
 </html>
