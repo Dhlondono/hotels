@@ -125,7 +125,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .numberOfRooms{
     position :absolute;
-    top: 250px;
+    top: 295px;
     margin: 0px 15px;
     color: white;
     z-index: 2;
@@ -133,7 +133,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .priceRooms{
     position :absolute;
-    top: 235px;
+    top: 280px;
     left: 100px;
     color: white;
     z-index: 2;
