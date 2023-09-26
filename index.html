@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Book it!</h1>
+       <div class="filter-container">
+            <select aria-label="seleccione un valor" class="filterCountry filter_icon" name="filter-countries" id="filter-countries">
+                <option value="all">All countries</option>
+                <option value="country1">All countries</option>
+            </select>
+            <input type="date" class="checkIn-date filter_icon" id="checkIn" placeholder="Check In" value="">
+            <input type="date" class="checkOut-date filter_icon" id="checkOut" placeholder="Check out" value="" >
+            <select aria-label="seleccione un valor" class="filterPrices filter_icon" name="filter-prices" id="filter-prices">
+                <option value="">All Prices</option>
+            </select>
+            <select aria-label="seleccione un valor" class="filterSizes filter_icon" name="filter-Sizes" id="filter-Sizes">
+                <option value="all">All Sizes</option>
+                <option value="size1">All countries</option>
+            </select>
+            <button class="button_clear" id="button_clear" type="button">Clear</button>
+       </div> 
+       <div class="message-container">
+        <p class="message-title">We have found for you...</p>
+        <p class="message-content">All sizes hotels of all category prices, in all countries.</p>
+       </div>
+    </header>
+    <main class="main">
+    </main>
+    <script type="module" src="./codigo/hotels.js"></script>
+</body>
+
+</html>
